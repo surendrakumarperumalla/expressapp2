@@ -67,10 +67,7 @@ app.get('/Career',function(req,res){
     console.log('career request received');
     res.sendFile(__dirname+"/Career.html")  
 })
-app.get('/style.css',function(req ,res){
-    console.log('css recived');
-    res.sendFile(__dirname+'/style.css')
-})
+
 app.get('/login',function(req,res){
     console.log('login');
     res.sendFile('/login.html')
